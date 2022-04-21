@@ -1,0 +1,239 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 25px;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #FFFED4;
+}
+
+h1 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: capitalize;
+}
+
+.nav-bar {
+    background-color: #A4A000;
+    display: inline-block;
+    width: 100%;
+    float: right;
+    height: 100px;
+    line-height: 90px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: -8px;
+}
+
+.nav-bar a {
+    padding: 80px;
+    text-decoration: none;
+    color: #3E3D12;
+}
+
+.nav-bar a:hover {
+    color: #FFFB57;
+}
+
+.slide {
+    width: 400px;
+    height: 250px;
+    padding-top: 70px;
+    padding-left: 15px;
+    margin-right: 105px;
+}
+
+.slideshow {
+    display: block;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #3E3D12;
+    color: #FFFFF8;
+    overflow-x: hidden;
+    padding: 20px 20px 20px 20px;
+    float: left;
+}
+
+.main {
+    display: inline-block;
+    width: 100%;
+    margin-left: 320px;
+    margin-top: -10px;
+    background-color: #FFFED4;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 1300px;
+    opacity: 70%;
+    background-color: white;
+}
+
+.header-text {
+    z-index: 1;
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 550px;
+    font-size: 200px;
+    text-align: right;
+}
+
+.header-text-small {
+    z-index: 1;
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 450px;
+    font-size: 50px;
+    text-align: left;
+    font-weight: 300;
+}
+
+.home-header {
+    font-weight: 300;
+    font-size: 100px;
+    text-transform: capitalize;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+.home-header-small {
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-left: 220px;
+    letter-spacing: 30px
+}
+
+.block-gran-canaria {
+    background-color: #3E3D12;
+    display: block;
+    width: 30px;
+    height: 100px;
+    padding-left: 150px;
+    margin-top: 150px;
+
+}
+
+.block-lanzarote {
+    background-color: #3E3D12;
+    display: block;
+    width: 30px;
+    height: 100px;
+    padding-left: 150px;
+    margin-top: 650px;
+
+}
+
+.block-fuerteventura {
+    background-color: #3E3D12;
+    display: block;
+    width: 30px;
+    height: 100px;
+    padding-left: 150px;
+    margin-top: 500px;
+
+}
+
+.block-more {
+    background-color: #3E3D12;
+    display: block;
+    width: 30px;
+    height: 100px;
+    padding-left: 150px;
+    margin-top: 750px;
+
+}
+
+.block-gran-canaria h2 {
+    color: #A4A000;
+    text-transform: uppercase;
+    font-weight: bold;
+    z-index: 1;
+    display: block;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin: auto;
+    line-height: 100px;
+    padding-left: 50px;
+}
+
+.block-lanzarote h2 {
+    color: #A4A000;
+    text-transform: uppercase;
+    font-weight: bold;
+    z-index: 1;
+    display: block;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin: auto;
+    line-height: 100px;
+    padding-left: 50px;
+}
+
+.block-fuerteventura h2 {
+    color: #A4A000;
+    text-transform: uppercase;
+    font-weight: bold;
+    z-index: 1;
+    display: block;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin: auto;
+    line-height: 100px;
+    padding-left: 50px;
+}
+
+.block-more h2 {
+    color: #A4A000;
+    text-transform: uppercase;
+    font-weight: bold;
+    z-index: 1;
+    display: block;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin: auto;
+    line-height: 100px;
+    padding-left: 50px;
+}
+
+.gran-canaria {
+    float: right;
+    padding-right: 500px;
+    margin-top: -80px;
+    width: 700px;
+    text-align: justify;
+}
+
+.lanzarote {
+    float: right;
+    padding-right: 500px;
+    margin-top: -80px;
+    width: 700px;
+    text-align: justify;
+}
+
+.fuerteventura {
+    float: right;
+    padding-right: 500px;
+    margin-top: -80px;
+    width: 700px;
+    text-align: justify;
+}
+
+.more {
+    float: right;
+    padding-right: 500px;
+    margin-top: -80px;
+    width: 700px;
+    text-align: justify;
+}
